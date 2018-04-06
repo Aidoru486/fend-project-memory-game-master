@@ -88,8 +88,20 @@ h1 {
   	animation-duration: .75s;
 }
 
-/* Styles for the Score Panel */
+.deck .card.unmatched {
+	animation-name: pulse;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	animation-duration: .75s;
+	background: #e2043b;
+}
 
+.deck .card.disabled {
+	pointer-events: none;
+	opacity: 0.9;
+}
+
+/* styles for the Score Panel */
 
 .score-panel {
     text-align: left;
