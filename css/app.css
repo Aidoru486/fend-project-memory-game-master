@@ -33,9 +33,7 @@ h1 {
     font-family: 'Gloria Hallelujah';
 }
 
-/*
- * Styles for the deck of cards
- */
+/* styles for the deck of cards */
 
 .deck {
     width: 85%;
@@ -84,11 +82,14 @@ h1 {
     cursor: default;
     background: #02ccba;
     font-size: 33px;
+    animation-name: rubberBand;
+  	-webkit-backface-visibility: visible !important;
+  	backface-visibility: visible !important;
+  	animation-duration: .75s;
 }
 
-/*
- * Styles for the Score Panel
- */
+/* Styles for the Score Panel */
+
 
 .score-panel {
     text-align: left;
