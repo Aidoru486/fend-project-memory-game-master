@@ -18,7 +18,8 @@ body {
 
 body {
     background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
-    font-family: 'Coda', cursive;
+    font-family: Tahoma, Arial, sans-serif;
+  	font-size: 16px;
 }
 
 .container {
