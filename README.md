@@ -1,20 +1,37 @@
 # Memory Game Project
 
-## Table of Contents
+## The Game
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+You are presented 16 shuffled cards facing down and the goal is to pair together the cards with the same image. By clicking in one card the image is revealed and in one move you can reveal two cards. The game is over when you have matched all cards.
 
-## Instructions
+## Score
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The score is evaluated through the amount of moves, time and stars you need to complete the game.
+The results are shown once you complete the game.
+There is no time limit and if all cards match you win, independently of the number of moves or stars
 
-To get started, open `js/app.js` and start building out the app's functionality
+Once you win a modal window pops up showing the score and giving you a chance to download the original illustration as a screensaver for desktop and phone/tablet.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Theme
 
-## Contributing
+This game features an original illustration made by Sara Bento de Castro. The theme is greek mythology, particularly the myths of Echo and Narcissus. All images used in these game are an integrated part of the illustration.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Technology used
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+HTML & CSS & JAVASCRIPT
+
+## Design and graphics
+
+The game design is responsive and works in most devices. Some older iOS might not respond to the javascript event listeners. The icon images are provided by **Font Awesome** and the typefaces are from **Google Fonts**
+
+## To do
+
+Make the game playable in all mobile devices, including the ones not accepting the javascript event listeners
+
+## Built With
+
+Frameworks/Libraries/APIs:
+
+* [Font Awesome](https://fontawesome.com/) - Font and icon toolkit
+* [Google Fonts](https://fonts.google.com/) - Font library
+
